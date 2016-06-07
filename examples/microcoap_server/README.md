@@ -25,6 +25,15 @@ Run the resulting RIOT binary by invoking:
 ```
 $ make term
 ```
+Note that
+```
+$ make term 
+```
+is equivalent of 
+```
+$ pyterm -p /dev/ttyUSB0 -b 115200
+```
+
 
 The application is now listening on all it's configured IP addresses.
 
